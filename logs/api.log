@@ -1375,3 +1375,12 @@
 02-02-2025 21:00:52.439 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Catcylabs anasayfasının yüklenme süresi kontrol edilir"}
 02-02-2025 21:00:52.440 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Catcylabs anasayfasının yüklenme süresi kontrol edilir" parameterizedStepValue:"Catcylabs anasayfasının yüklenme süresi kontrol edilir"}}
 02-02-2025 21:00:55.511 [Gauge] [DEBUG] Spec file added / modified: /Users/testinium/Desktop/transferMoneyTestinium/specs/LoginScenariosPage/login.spec
+02-02-2025 21:59:07.696 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Başarılı login olunur"}
+02-02-2025 21:59:07.700 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı login olunur" parameterizedStepValue:"Başarılı login olunur"}}
+02-02-2025 21:59:07.700 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Başarılı login olunur"}
+02-02-2025 21:59:07.700 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı login olunur" parameterizedStepValue:"Başarılı login olunur"}}
+02-02-2025 21:59:10.198 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"https://github.com/MervAydin/transferMoneyTestinium/settings/access"}
+02-02-2025 21:59:10.199 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"https://github.com/MervAydin/transferMoneyTestinium/settings/access" parameterizedStepValue:"https://github.com/MervAydin/transferMoneyTestinium/settings/access"}}
+02-02-2025 21:59:22.176 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı login olunur"}
+02-02-2025 21:59:22.177 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı login olunur" parameterizedStepValue:"Başarılı login olunur"}}
+02-02-2025 21:59:34.688 [Gauge] [DEBUG] Spec file added / modified: /Users/testinium/Desktop/transferMoneyTestinium/specs/LoginScenariosPage/login.spec
