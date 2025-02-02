@@ -1,0 +1,13 @@
+Created by testinium on 31.01.2025
+
+This is a concept file with following syntax for each concept.
+# Catcylabs anasayfasının yüklenme süresi kontrol edilir
+* Sayfa yüklenme süresini kontrol et "https://catchylabs-webclient.testinium.com/signIn"
+
+# Elemente tiklanir
+* "userName" elementine tıkla
+* "userName" alanına "aydin.merve@testinium.com" yaz
+* "password" elementine tıkla
+* "password" alanına "Ehwcwilt53!" yaz
+* "loginButton" elementine tıkla
+* "3" saniye beklenir ve "openMoneyTransferButton" xpath elementi "görünür" olana kadar beklenir

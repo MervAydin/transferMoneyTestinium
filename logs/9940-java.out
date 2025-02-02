@@ -1,0 +1,70 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 471milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 471"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 64994"}
+{"logLevel":"info","message":"Listening on port:64994"}
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory
+SLF4J: The following set of substitute loggers may have been accessed
+SLF4J: during the initialization phase. Logging calls during this
+SLF4J: phase were not honored. However, subsequent logging calls to these
+SLF4J: loggers will work as normally expected.
+SLF4J: See also http://www.slf4j.org/codes.html#substituteLogger
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.clickElement' and 'com.testinium.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Click to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.clickElement' and 'com.testinium.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.getElementWithKeyIfExists' and 'com.testinium.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Check if element {} exists in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.getElementWithKeyIfExists' and 'com.testinium.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Element var mı kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.goToUrl' and 'com.testinium.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found Go to {} address in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.goToUrl' and 'com.testinium.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found {} adresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementNotExists' and 'com.testinium.step.BaseSteps.checkElementNotExists'"}
+{"logLevel":"debug","message":"Found Check if element {} not exists in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementNotExists' and 'com.testinium.step.BaseSteps.checkElementNotExists'"}
+{"logLevel":"debug","message":"Found Element yok mu kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitByMilliSeconds' and 'com.testinium.step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitByMilliSeconds' and 'com.testinium.step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tElement var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} not exists : public void checkElementNotExists(String key)"}
+{"logLevel":"debug","message":"\tClick to element {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\t{} adresine git : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tGo to {} address : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tElement yok mu kontrol et {} : public void checkElementNotExists(String key)"}
+08:57:42.318 [pool-2-thread-1] ERROR com.testinium.base.BaseTest - Element JSON dosyaları bulunamadı: src/test/resources/elements
+{"logLevel":"debug","message":"Executing '{} adresine git' using 'class com.testinium.step.BaseSteps.goToUrl"}
+{"logLevel":"debug","message":"Executing '{} milisaniye bekle' using 'class com.testinium.step.BaseSteps.waitByMilliSeconds"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}

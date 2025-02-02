@@ -1,0 +1,22 @@
+[
+  {
+    "key":"userName",
+    "value":"//input[@placeholder='Username']",
+    "type":"xpath"
+  },
+  {
+    "key":"password",
+    "value":"//input[@placeholder='Password']",
+    "type":"xpath"
+  },
+  {
+    "key":"loginButton",
+    "value":"//div[@class='css-175oi2rr-1i6wzkkr-lrvibrr-1loqt21r-1otgn73r-1awozwyr-169ebfhr-z2wwper-h3s6ttr-1777fcir-tsynxwr-13qz1uu']",
+    "type":"xpath"
+  },
+  {
+    "key":"openMoneyTransferButton",
+    "value":"//div[@class='css-146c3p1r-jwli3ar-1b43r93'andcontains(text(),'OpenMoneyTransfer')]",
+    "type":"xpath"
+  }
+]

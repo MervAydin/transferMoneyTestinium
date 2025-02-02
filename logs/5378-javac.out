@@ -1,0 +1,301 @@
+src/test/java/com/testinium/base/BaseTest.java:9: error: package io.github.bonigarcia.wdm does not exist
+import io.github.bonigarcia.wdm.WebDriverManager;
+                               ^
+src/test/java/com/testinium/base/BaseTest.java:11: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.LogManager;
+                               ^
+src/test/java/com/testinium/base/BaseTest.java:12: error: package org.apache.logging.log4j does not exist
+import org.apache.logging.log4j.Logger;
+                               ^
+src/test/java/com/testinium/base/BaseTest.java:13: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.WebDriver;
+                          ^
+src/test/java/com/testinium/base/BaseTest.java:14: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeDriver;
+                                 ^
+src/test/java/com/testinium/base/BaseTest.java:15: error: package org.openqa.selenium.chrome does not exist
+import org.openqa.selenium.chrome.ChromeOptions;
+                                 ^
+src/test/java/com/testinium/base/BaseTest.java:16: error: package org.openqa.selenium.edge does not exist
+import org.openqa.selenium.edge.EdgeDriver;
+                               ^
+src/test/java/com/testinium/base/BaseTest.java:17: error: package org.openqa.selenium.edge does not exist
+import org.openqa.selenium.edge.EdgeOptions;
+                               ^
+src/test/java/com/testinium/base/BaseTest.java:18: error: package org.openqa.selenium.firefox does not exist
+import org.openqa.selenium.firefox.FirefoxDriver;
+                                  ^
+src/test/java/com/testinium/base/BaseTest.java:19: error: package org.openqa.selenium.firefox does not exist
+import org.openqa.selenium.firefox.FirefoxOptions;
+                                  ^
+src/test/java/com/testinium/base/BaseTest.java:20: error: package org.openqa.selenium.remote does not exist
+import org.openqa.selenium.remote.RemoteWebDriver;
+                                 ^
+src/test/java/com/testinium/base/BaseTest.java:21: error: package org.openqa.selenium.safari does not exist
+import org.openqa.selenium.safari.SafariDriver;
+                                 ^
+src/test/java/com/testinium/base/BaseTest.java:22: error: package org.openqa.selenium.safari does not exist
+import org.openqa.selenium.safari.SafariOptions;
+                                 ^
+src/test/java/com/testinium/base/BaseTest.java:34: error: cannot find symbol
+    protected static WebDriver driver;
+                     ^
+  symbol:   class WebDriver
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:35: error: cannot find symbol
+    protected static final Logger logger = LogManager.getLogger(BaseTest.class);
+                           ^
+  symbol:   class Logger
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:112: error: cannot find symbol
+    private ChromeOptions chromeOptions() {
+            ^
+  symbol:   class ChromeOptions
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:118: error: cannot find symbol
+    private FirefoxOptions firefoxOptions() {
+            ^
+  symbol:   class FirefoxOptions
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:124: error: cannot find symbol
+    private EdgeOptions edgeOptions() {
+            ^
+  symbol:   class EdgeOptions
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:130: error: cannot find symbol
+    private SafariOptions safariOptions() {
+            ^
+  symbol:   class SafariOptions
+  location: class BaseTest
+src/test/java/com/testinium/step/BaseSteps.java:7: error: package org.openqa.selenium.interactions does not exist
+import org.openqa.selenium.interactions.Actions;
+                                       ^
+src/test/java/com/testinium/step/BaseSteps.java:8: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.ExpectedConditions;
+                                     ^
+src/test/java/com/testinium/step/BaseSteps.java:9: error: package org.openqa.selenium.support.ui does not exist
+import org.openqa.selenium.support.ui.WebDriverWait;
+                                     ^
+src/test/java/com/testinium/step/BaseSteps.java:14: error: package org.junit.jupiter.api does not exist
+import static org.junit.jupiter.api.Assertions.assertTrue;
+                                   ^
+src/test/java/com/testinium/step/BaseSteps.java:14: error: static import only from classes and interfaces
+import static org.junit.jupiter.api.Assertions.assertTrue;
+^
+src/test/java/com/testinium/step/BaseSteps.java:15: error: package org.junit.jupiter.api does not exist
+import org.junit.jupiter.api.Assertions;
+                            ^
+src/test/java/com/testinium/step/BaseSteps.java:19: error: cannot find symbol
+    Actions actions;
+    ^
+  symbol:   class Actions
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:49: error: cannot find symbol
+    WebElement findElement(String key) {
+    ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:59: error: cannot find symbol
+    public By getElementInfoToBy(ElementInfo elementInfo) {
+           ^
+  symbol:   class By
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:95: error: cannot find symbol
+    public WebElement getElementWithKeyIfExists(String key) {
+           ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:6: error: package org.openqa.selenium does not exist
+import org.openqa.selenium.*;
+^
+src/test/java/com/testinium/base/BaseTest.java:35: error: cannot find symbol
+    protected static final Logger logger = LogManager.getLogger(BaseTest.class);
+                                           ^
+  symbol:   variable LogManager
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:65: error: cannot find symbol
+                WebDriverManager.chromedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:66: error: cannot find symbol
+                driver = new ChromeDriver(chromeOptions());
+                             ^
+  symbol:   class ChromeDriver
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:69: error: cannot find symbol
+                WebDriverManager.firefoxdriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:70: error: cannot find symbol
+                driver = new FirefoxDriver(firefoxOptions());
+                             ^
+  symbol:   class FirefoxDriver
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:73: error: cannot find symbol
+                WebDriverManager.edgedriver().setup();
+                ^
+  symbol:   variable WebDriverManager
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:74: error: cannot find symbol
+                driver = new EdgeDriver(edgeOptions());
+                             ^
+  symbol:   class EdgeDriver
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:77: error: cannot find symbol
+                driver = new SafariDriver(safariOptions());
+                             ^
+  symbol:   class SafariDriver
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:87: error: cannot find symbol
+                driver = new RemoteWebDriver(new URL(gridUrl), chromeOptions());
+                             ^
+  symbol:   class RemoteWebDriver
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:90: error: cannot find symbol
+                driver = new RemoteWebDriver(new URL(gridUrl), firefoxOptions());
+                             ^
+  symbol:   class RemoteWebDriver
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:93: error: cannot find symbol
+                driver = new RemoteWebDriver(new URL(gridUrl), edgeOptions());
+                             ^
+  symbol:   class RemoteWebDriver
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:96: error: cannot find symbol
+                driver = new RemoteWebDriver(new URL(gridUrl), safariOptions());
+                             ^
+  symbol:   class RemoteWebDriver
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:113: error: cannot find symbol
+        ChromeOptions options = new ChromeOptions();
+        ^
+  symbol:   class ChromeOptions
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:113: error: cannot find symbol
+        ChromeOptions options = new ChromeOptions();
+                                    ^
+  symbol:   class ChromeOptions
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:119: error: cannot find symbol
+        FirefoxOptions options = new FirefoxOptions();
+        ^
+  symbol:   class FirefoxOptions
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:119: error: cannot find symbol
+        FirefoxOptions options = new FirefoxOptions();
+                                     ^
+  symbol:   class FirefoxOptions
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:125: error: cannot find symbol
+        EdgeOptions options = new EdgeOptions();
+        ^
+  symbol:   class EdgeOptions
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:125: error: cannot find symbol
+        EdgeOptions options = new EdgeOptions();
+                                  ^
+  symbol:   class EdgeOptions
+  location: class BaseTest
+src/test/java/com/testinium/base/BaseTest.java:131: error: cannot find symbol
+        return new SafariOptions();
+                   ^
+  symbol:   class SafariOptions
+  location: class BaseTest
+src/test/java/com/testinium/step/BaseSteps.java:28: error: cannot find symbol
+        actions = new Actions(driver);
+                      ^
+  symbol:   class Actions
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:50: error: cannot find symbol
+        By infoParam = getElementInfoToBy(findElementInfoByKey(key));
+        ^
+  symbol:   class By
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:51: error: cannot find symbol
+        WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(30));
+        ^
+  symbol:   class WebDriverWait
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:51: error: cannot find symbol
+        WebDriverWait webDriverWait = new WebDriverWait(driver, Duration.ofSeconds(30));
+                                          ^
+  symbol:   class WebDriverWait
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:52: error: cannot find symbol
+        WebElement webElement = webDriverWait.until(ExpectedConditions.presenceOfElementLocated(infoParam));
+        ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:52: error: cannot find symbol
+        WebElement webElement = webDriverWait.until(ExpectedConditions.presenceOfElementLocated(infoParam));
+                                                    ^
+  symbol:   variable ExpectedConditions
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:53: error: cannot find symbol
+        ((JavascriptExecutor) driver).executeScript(
+          ^
+  symbol:   class JavascriptExecutor
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:60: error: cannot find symbol
+        By by = null;
+        ^
+  symbol:   class By
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:63: error: cannot find symbol
+                by = By.cssSelector(elementInfo.getValue());
+                     ^
+  symbol:   variable By
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:66: error: cannot find symbol
+                by = By.name(elementInfo.getValue());
+                     ^
+  symbol:   variable By
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:69: error: cannot find symbol
+                by = By.id(elementInfo.getValue());
+                     ^
+  symbol:   variable By
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:72: error: cannot find symbol
+                by = By.xpath(elementInfo.getValue());
+                     ^
+  symbol:   variable By
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:75: error: cannot find symbol
+                by = By.linkText(elementInfo.getValue());
+                     ^
+  symbol:   variable By
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:78: error: cannot find symbol
+                by = By.partialLinkText(elementInfo.getValue());
+                     ^
+  symbol:   variable By
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:96: error: cannot find symbol
+        WebElement webElement;
+        ^
+  symbol:   class WebElement
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:103: error: cannot find symbol
+            } catch (WebDriverException e) {
+                     ^
+  symbol:   class WebDriverException
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:109: error: cannot find symbol
+        Assertions.fail("Element: '" + key + "' doesn't exist.");
+        ^
+  symbol:   variable Assertions
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:132: error: cannot find symbol
+        By by = getElementInfoToBy(elementInfo);
+        ^
+  symbol:   class By
+  location: class BaseSteps
+src/test/java/com/testinium/step/BaseSteps.java:143: error: cannot find symbol
+        Assertions.fail("Element '" + key + "' still exist.");
+        ^
+  symbol:   variable Assertions
+  location: class BaseSteps
+68 errors

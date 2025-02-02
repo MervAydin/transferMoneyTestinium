@@ -1,0 +1,66 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+{"logLevel":"debug","message":"gauge-java took 468milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 468"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 61783"}
+{"logLevel":"info","message":"Listening on port:61783"}
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory
+SLF4J: The following set of substitute loggers may have been accessed
+SLF4J: during the initialization phase. Logging calls during this
+SLF4J: phase were not honored. However, subsequent logging calls to these
+SLF4J: loggers will work as normally expected.
+SLF4J: See also http://www.slf4j.org/codes.html#substituteLogger
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkPageLoadTime' and 'com.testinium.step.BaseSteps.checkPageLoadTime'"}
+{"logLevel":"debug","message":"Found Sayfa yüklenme süresini kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitForElementCondition' and 'com.testinium.step.BaseSteps.waitForElementCondition'"}
+{"logLevel":"debug","message":"Found {} saniye beklenir ve {} xpath elementi {} olana kadar beklenir in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.clickElement' and 'com.testinium.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found {} elementine tıkla in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.enterText' and 'com.testinium.step.BaseSteps.enterText'"}
+{"logLevel":"debug","message":"Found {} alanına {} yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.verifyElementIsDisplayed' and 'com.testinium.step.BaseSteps.verifyElementIsDisplayed'"}
+{"logLevel":"debug","message":"Found {} elementi görüntülendiğini doğrula in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitForElement' and 'com.testinium.step.BaseSteps.waitForElement'"}
+{"logLevel":"debug","message":"Found {} elementi görünene kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitForElementWithDynamicWait' and 'com.testinium.step.BaseSteps.waitForElementWithDynamicWait'"}
+{"logLevel":"debug","message":"Found {} saniye boyunca element görünene kadar bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.navigateTo' and 'com.testinium.step.BaseSteps.navigateTo'"}
+{"logLevel":"debug","message":"Found Sayfaya git {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\t{} elementi görüntülendiğini doğrula : public void verifyElementIsDisplayed(String key)"}
+{"logLevel":"debug","message":"\t{} saniye beklenir ve {} xpath elementi {} olana kadar beklenir : public void waitForElementCondition(ınt seconds, String key, String condition)"}
+{"logLevel":"debug","message":"\t{} elementine tıkla : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} saniye boyunca element görünene kadar bekle : public void waitForElementWithDynamicWait(ınt seconds)"}
+{"logLevel":"debug","message":"\tSayfaya git {} : public void navigateTo(String url)"}
+{"logLevel":"debug","message":"\t{} alanına {} yaz : public void enterText(String key, String text)"}
+{"logLevel":"debug","message":"\t{} elementi görünene kadar bekle : public void waitForElement(String key)"}
+{"logLevel":"debug","message":"\tSayfa yüklenme süresini kontrol et {} : public void checkPageLoadTime(String url)"}
+{"logLevel":"debug","message":"Executing 'Sayfa yüklenme süresini kontrol et {}' using 'class com.testinium.step.BaseSteps.checkPageLoadTime"}
+Sayfa yüklenme süresi: 40 ms
+{"logLevel":"debug","message":"Executing '{} elementine tıkla' using 'class com.testinium.step.BaseSteps.clickElement"}
+14:09:23.261 [pool-2-thread-1] ERROR com.testinium.base.BaseTest - Element not found in configuration: userName
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
+{"logLevel":"debug","message":"Runner killed gracefully."}

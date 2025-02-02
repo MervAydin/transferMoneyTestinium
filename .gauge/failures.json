@@ -1,0 +1,9 @@
+{
+	"Args": [
+		"run",
+		"--dir=/Users/testinium/Desktop/transferMoneyTestinium"
+	],
+	"FailedItems": [
+		"specs/LoginScenariosPage/login.spec:4"
+	]
+}

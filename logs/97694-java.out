@@ -1,0 +1,26 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\tElement var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} not exists : public void checkElementNotExists(String key)"}
+{"logLevel":"debug","message":"\tClick to element {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\t{} adresine git : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\tGo to {} address : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tElement yok mu kontrol et {} : public void checkElementNotExists(String key)"}
+{"logLevel":"debug","message":"gauge-java took 5862milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 5862"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 62696"}
+{"logLevel":"info","message":"Listening on port:62696"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}

@@ -1,0 +1,219 @@
+{"logLevel":"debug","message":"multithreading is set to false"}
+{"logLevel":"debug","message":"Using reflection to scan dependencies for gauge implementations..."}
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.logging.InternalLoggerFactory
+SLF4J: The following set of substitute loggers may have been accessed
+SLF4J: during the initialization phase. Logging calls during this
+SLF4J: phase were not honored. However, subsequent logging calls to these
+SLF4J: loggers will work as normally expected.
+SLF4J: See also http://www.slf4j.org/codes.html#substituteLogger
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent0
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.CleanerJava9
+SLF4J: io.grpc.netty.shaded.io.netty.util.internal.PlatformDependent
+{"logLevel":"debug","message":"Scanning packages for steps"}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementAttributeNotExists' and 'com.testinium.step.BaseSteps.checkElementAttributeNotExists'"}
+{"logLevel":"debug","message":"Found Check if element {} not have attribute {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementAttributeNotExists' and 'com.testinium.step.BaseSteps.checkElementAttributeNotExists'"}
+{"logLevel":"debug","message":"Found {} elementi {} niteliğine sahip değil mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.clickElement' and 'com.testinium.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Click to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.clickElement' and 'com.testinium.step.BaseSteps.clickElement'"}
+{"logLevel":"debug","message":"Found Elementine tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitElementLoadWithCss' and 'com.testinium.step.BaseSteps.waitElementLoadWithCss'"}
+{"logLevel":"debug","message":"Found Wait for element to load with css {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitElementLoadWithCss' and 'com.testinium.step.BaseSteps.waitElementLoadWithCss'"}
+{"logLevel":"debug","message":"Found Elementin yüklenmesini bekle css {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.sendKeyToElementTAB' and 'com.testinium.step.BaseSteps.sendKeyToElementTAB'"}
+{"logLevel":"debug","message":"Found Send TAB key to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.sendKeyToElementTAB' and 'com.testinium.step.BaseSteps.sendKeyToElementTAB'"}
+{"logLevel":"debug","message":"Found Elemente TAB keyi yolla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementAttributeEquals' and 'com.testinium.step.BaseSteps.checkElementAttributeEquals'"}
+{"logLevel":"debug","message":"Found Check if {} element's attribute {} equals to the value {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementAttributeEquals' and 'com.testinium.step.BaseSteps.checkElementAttributeEquals'"}
+{"logLevel":"debug","message":"Found {} elementinin {} niteliği {} değerine sahip mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.ssendKeys' and 'com.testinium.step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found Write value {} to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.ssendKeys' and 'com.testinium.step.BaseSteps.ssendKeys'"}
+{"logLevel":"debug","message":"Found {} textini {} elemente yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitElementLoadWithXpath' and 'com.testinium.step.BaseSteps.waitElementLoadWithXpath'"}
+{"logLevel":"debug","message":"Found Wait for element to load with xpath {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitElementLoadWithXpath' and 'com.testinium.step.BaseSteps.waitElementLoadWithXpath'"}
+{"logLevel":"debug","message":"Found Elementinin yüklenmesini bekle xpath {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.getElementWithKeyIfExists' and 'com.testinium.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Check if element {} exists in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.getElementWithKeyIfExists' and 'com.testinium.step.BaseSteps.getElementWithKeyIfExists'"}
+{"logLevel":"debug","message":"Found Element var mı kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.clearInputArea' and 'com.testinium.step.BaseSteps.clearInputArea'"}
+{"logLevel":"debug","message":"Found Clear text of element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.clearInputArea' and 'com.testinium.step.BaseSteps.clearInputArea'"}
+{"logLevel":"debug","message":"Found {} elementinin text alanını temizle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.printPageSource' and 'com.testinium.step.BaseSteps.printPageSource'"}
+{"logLevel":"debug","message":"Found Print page source in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitBySeconds' and 'com.testinium.step.BaseSteps.waitBySeconds'"}
+{"logLevel":"debug","message":"Found Wait {} seconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitBySeconds' and 'com.testinium.step.BaseSteps.waitBySeconds'"}
+{"logLevel":"debug","message":"Found {} saniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.sendKeysByID' and 'com.testinium.step.BaseSteps.sendKeysByID'"}
+{"logLevel":"debug","message":"Found {} id'li elemente {} text degerini gönder in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkURLContainsRepeat' and 'com.testinium.step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Check if current URL contains the value {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkURLContainsRepeat' and 'com.testinium.step.BaseSteps.checkURLContainsRepeat'"}
+{"logLevel":"debug","message":"Found Şuanki URL {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.sendKeysByxpath' and 'com.testinium.step.BaseSteps.sendKeysByxpath'"}
+{"logLevel":"debug","message":"Found {} xpath'li elemente {} text degerini gönder in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.setElementAttribute' and 'com.testinium.step.BaseSteps.setElementAttribute'"}
+{"logLevel":"debug","message":"Found Write {} to {} of element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.setElementAttribute' and 'com.testinium.step.BaseSteps.setElementAttribute'"}
+{"logLevel":"debug","message":"Found {} değerini {} niteliğine {} elementi için yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.clearInputAreaWithBackspace' and 'com.testinium.step.BaseSteps.clearInputAreaWithBackspace'"}
+{"logLevel":"debug","message":"Found Clear text of element {} with BACKSPACE in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.clearInputAreaWithBackspace' and 'com.testinium.step.BaseSteps.clearInputAreaWithBackspace'"}
+{"logLevel":"debug","message":"Found {} elementinin text alanını BACKSPACE ile temizle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.sendKeyToElementBACKSPACE' and 'com.testinium.step.BaseSteps.sendKeyToElementBACKSPACE'"}
+{"logLevel":"debug","message":"Found Send BACKSPACE key to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.sendKeyToElementBACKSPACE' and 'com.testinium.step.BaseSteps.sendKeyToElementBACKSPACE'"}
+{"logLevel":"debug","message":"Found Elemente BACKSPACE keyi yolla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.setElementAttributeWithJs' and 'com.testinium.step.BaseSteps.setElementAttributeWithJs'"}
+{"logLevel":"debug","message":"Found Write {} to {} of element {} with Js in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.setElementAttributeWithJs' and 'com.testinium.step.BaseSteps.setElementAttributeWithJs'"}
+{"logLevel":"debug","message":"Found {} değerini {} niteliğine {} elementi için JS ile yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementNotExists' and 'com.testinium.step.BaseSteps.checkElementNotExists'"}
+{"logLevel":"debug","message":"Found Check if element {} not exists in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementNotExists' and 'com.testinium.step.BaseSteps.checkElementNotExists'"}
+{"logLevel":"debug","message":"Found Element yok mu kontrol et {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitByMilliSeconds' and 'com.testinium.step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found Wait {} milliseconds in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.waitByMilliSeconds' and 'com.testinium.step.BaseSteps.waitByMilliSeconds'"}
+{"logLevel":"debug","message":"Found {} milisaniye bekle in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementAttributeContains' and 'com.testinium.step.BaseSteps.checkElementAttributeContains'"}
+{"logLevel":"debug","message":"Found Check if {} element's attribute {} contains the value {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementAttributeContains' and 'com.testinium.step.BaseSteps.checkElementAttributeContains'"}
+{"logLevel":"debug","message":"Found {} elementinin {} niteliği {} değerini içeriyor mu in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'com.testinium.step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Check if element {} exists else print message {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.getElementWithKeyIfExistsWithMessage' and 'com.testinium.step.BaseSteps.getElementWithKeyIfExistsWithMessage'"}
+{"logLevel":"debug","message":"Found Element {} var mı kontrol et yoksa hata mesajı ver {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementContainsText' and 'com.testinium.step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found Check if element {} contains text {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementContainsText' and 'com.testinium.step.BaseSteps.checkElementContainsText'"}
+{"logLevel":"debug","message":"Found {} elementi {} değerini içeriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.writeRandomValueToElement' and 'com.testinium.step.BaseSteps.writeRandomValueToElement'"}
+{"logLevel":"debug","message":"Found Write random value to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.writeRandomValueToElement' and 'com.testinium.step.BaseSteps.writeRandomValueToElement'"}
+{"logLevel":"debug","message":"Found {} elementine random değer yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementExistsThenClick' and 'com.testinium.step.BaseSteps.checkElementExistsThenClick'"}
+{"logLevel":"debug","message":"Found Wait for element then click {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementExistsThenClick' and 'com.testinium.step.BaseSteps.checkElementExistsThenClick'"}
+{"logLevel":"debug","message":"Found Elementi bekle ve sonra tıkla {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.goToUrl' and 'com.testinium.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found Go to {} address in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.goToUrl' and 'com.testinium.step.BaseSteps.goToUrl'"}
+{"logLevel":"debug","message":"Found {} adresine git in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.saveAttributeValueOfElement' and 'com.testinium.step.BaseSteps.saveAttributeValueOfElement'"}
+{"logLevel":"debug","message":"Found Save attribute {} value of element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.saveAttributeValueOfElement' and 'com.testinium.step.BaseSteps.saveAttributeValueOfElement'"}
+{"logLevel":"debug","message":"Found {} niteliğini sakla {} elementi için in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.writeSavedAttributeToElement' and 'com.testinium.step.BaseSteps.writeSavedAttributeToElement'"}
+{"logLevel":"debug","message":"Found Write saved attribute value to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.writeSavedAttributeToElement' and 'com.testinium.step.BaseSteps.writeSavedAttributeToElement'"}
+{"logLevel":"debug","message":"Found Kaydedilmiş niteliği {} elementine yaz in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.uploadFile' and 'com.testinium.step.BaseSteps.uploadFile'"}
+{"logLevel":"debug","message":"Found Upload file in project {} to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.uploadFile' and 'com.testinium.step.BaseSteps.uploadFile'"}
+{"logLevel":"debug","message":"Found Proje içindeki {} dosyayı {} elemente upload et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementAttributeExists' and 'com.testinium.step.BaseSteps.checkElementAttributeExists'"}
+{"logLevel":"debug","message":"Found Check if element {} has attribute {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementAttributeExists' and 'com.testinium.step.BaseSteps.checkElementAttributeExists'"}
+{"logLevel":"debug","message":"Found {} elementi {} niteliğine sahip mi in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.checkElementAttributeWithJs' and 'com.testinium.step.BaseSteps.checkElementAttributeWithJs'"}
+{"logLevel":"debug","message":"Found {} elementinin value degeri {} degerini iceriyor mu kontrol et in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.sendKeyToElementESCAPE' and 'com.testinium.step.BaseSteps.sendKeyToElementESCAPE'"}
+{"logLevel":"debug","message":"Found Send ESCAPE key to element {} in current project scope."}
+{"logLevel":"debug","message":"Comparing 'com.testinium.step.BaseSteps.sendKeyToElementESCAPE' and 'com.testinium.step.BaseSteps.sendKeyToElementESCAPE'"}
+{"logLevel":"debug","message":"Found Elemente ESCAPE keyi yolla {} in current project scope."}
+{"logLevel":"debug","message":"Scanning packages for hooks"}
+{"logLevel":"debug","message":"Scanned steps (using static parsing + reflections): "}
+{"logLevel":"debug","message":"\tWait for element to load with xpath {} : public void waitElementLoadWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\tCheck if element {} not have attribute {} : public void checkElementAttributeNotExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\t{} adresine git : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\tCheck if element {} has attribute {} : public void checkElementAttributeExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\tWrite saved attribute value to element {} : public void writeSavedAttributeToElement(String key)"}
+{"logLevel":"debug","message":"\t{} değerini {} niteliğine {} elementi için JS ile yaz : public void setElementAttributeWithJs(String value, String attributeName, String key)"}
+{"logLevel":"debug","message":"\tElement {} var mı kontrol et yoksa hata mesajı ver {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\tCheck if {} element's attribute {} contains the value {} : public void checkElementAttributeContains(String key, String attribute, String expectedValue)"}
+{"logLevel":"debug","message":"\tWait for element then click {} : public void checkElementExistsThenClick(String key)"}
+{"logLevel":"debug","message":"\t{} değerini {} niteliğine {} elementi için yaz : public void setElementAttribute(String value, String attributeName, String key)"}
+{"logLevel":"debug","message":"\tŞuanki URL {} değerini içeriyor mu kontrol et : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\tElemente TAB keyi yolla {} : public void sendKeyToElementTAB(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin {} niteliği {} değerini içeriyor mu : public void checkElementAttributeContains(String key, String attribute, String expectedValue)"}
+{"logLevel":"debug","message":"\tSend ESCAPE key to element {} : public void sendKeyToElementESCAPE(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin {} niteliği {} değerine sahip mi : public void checkElementAttributeEquals(String key, String attribute, String expectedValue)"}
+{"logLevel":"debug","message":"\tWrite value {} to element {} : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"\tProje içindeki {} dosyayı {} elemente upload et : public void uploadFile(String path, String key)"}
+{"logLevel":"debug","message":"\tWait {} seconds : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\tClear text of element {} : public void clearInputArea(String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} not exists : public void checkElementNotExists(String key)"}
+{"logLevel":"debug","message":"\t{} elementine random değer yaz : public void writeRandomValueToElement(String key)"}
+{"logLevel":"debug","message":"\tElementi bekle ve sonra tıkla {} : public void checkElementExistsThenClick(String key)"}
+{"logLevel":"debug","message":"\tSave attribute {} value of element {} : public void saveAttributeValueOfElement(String attribute, String key)"}
+{"logLevel":"debug","message":"\t{} id'li elemente {} text degerini gönder : public void sendKeysByID(String id, String text)"}
+{"logLevel":"debug","message":"\tElemente BACKSPACE keyi yolla {} : public void sendKeyToElementBACKSPACE(String key)"}
+{"logLevel":"debug","message":"\tWrite {} to {} of element {} : public void setElementAttribute(String value, String attributeName, String key)"}
+{"logLevel":"debug","message":"\t{} elementinin text alanını temizle : public void clearInputArea(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin text alanını BACKSPACE ile temizle : public void clearInputAreaWithBackspace(String key)"}
+{"logLevel":"debug","message":"\tClear text of element {} with BACKSPACE : public void clearInputAreaWithBackspace(String key)"}
+{"logLevel":"debug","message":"\tPrint page source : public void printPageSource()"}
+{"logLevel":"debug","message":"\tUpload file in project {} to element {} : public void uploadFile(String path, String key)"}
+{"logLevel":"debug","message":"\tCheck if {} element's attribute {} equals to the value {} : public void checkElementAttributeEquals(String key, String attribute, String expectedValue)"}
+{"logLevel":"debug","message":"\tWait {} milliseconds : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\t{} milisaniye bekle : public void waitByMilliSeconds(long milliseconds)"}
+{"logLevel":"debug","message":"\t{} xpath'li elemente {} text degerini gönder : public void sendKeysByxpath(String xpath, String text)"}
+{"logLevel":"debug","message":"\t{} elementi {} değerini içeriyor mu kontrol et : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tElement yok mu kontrol et {} : public void checkElementNotExists(String key)"}
+{"logLevel":"debug","message":"\tElementin yüklenmesini bekle css {} : public void waitElementLoadWithCss(String css)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists else print message {} : public void getElementWithKeyIfExistsWithMessage(String key, String message)"}
+{"logLevel":"debug","message":"\t{} elementi {} niteliğine sahip değil mi : public void checkElementAttributeNotExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\tElement var mı kontrol et {} : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\t{} saniye bekle : public void waitBySeconds(ınt seconds)"}
+{"logLevel":"debug","message":"\tWait for element to load with css {} : public void waitElementLoadWithCss(String css)"}
+{"logLevel":"debug","message":"\t{} niteliğini sakla {} elementi için : public void saveAttributeValueOfElement(String attribute, String key)"}
+{"logLevel":"debug","message":"\tElemente ESCAPE keyi yolla {} : public void sendKeyToElementESCAPE(String key)"}
+{"logLevel":"debug","message":"\tWrite {} to {} of element {} with Js : public void setElementAttributeWithJs(String value, String attributeName, String key)"}
+{"logLevel":"debug","message":"\tGo to {} address : public void goToUrl(String url)"}
+{"logLevel":"debug","message":"\t{} elementi {} niteliğine sahip mi : public void checkElementAttributeExists(String key, String attribute)"}
+{"logLevel":"debug","message":"\tCheck if element {} exists : public WebElement getElementWithKeyIfExists(String key)"}
+{"logLevel":"debug","message":"\tCheck if current URL contains the value {} : public void checkURLContainsRepeat(String expectedURL)"}
+{"logLevel":"debug","message":"\tWrite random value to element {} : public void writeRandomValueToElement(String key)"}
+{"logLevel":"debug","message":"\tKaydedilmiş niteliği {} elementine yaz : public void writeSavedAttributeToElement(String key)"}
+{"logLevel":"debug","message":"\tCheck if element {} contains text {} : public void checkElementContainsText(String key, String expectedText)"}
+{"logLevel":"debug","message":"\tSend TAB key to element {} : public void sendKeyToElementTAB(String key)"}
+{"logLevel":"debug","message":"\tSend BACKSPACE key to element {} : public void sendKeyToElementBACKSPACE(String key)"}
+{"logLevel":"debug","message":"\tClick to element {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} elementinin value degeri {} degerini iceriyor mu kontrol et : public void checkElementAttributeWithJs(String key, String expectedValue)"}
+{"logLevel":"debug","message":"\tElementinin yüklenmesini bekle xpath {} : public void waitElementLoadWithXpath(String xpath)"}
+{"logLevel":"debug","message":"\tElementine tıkla {} : public void clickElement(String key)"}
+{"logLevel":"debug","message":"\t{} textini {} elemente yaz : public void ssendKeys(String text, String key)"}
+{"logLevel":"debug","message":"gauge-java took 5542milliseconds to load and scan. This should be less than 'runner_connection_timeout' config value."}
+{"logLevel":"debug","message":"run 'gauge config runner_connection_timeout' and verify that it is < 5542"}
+{"logLevel":"debug","message":"starting gRPC server..."}
+{"logLevel":"debug","message":"started gRPC server on port 51922"}
+{"logLevel":"info","message":"Listening on port:51922"}
+{"logLevel":"debug","message":"Executing '{} adresine git' using 'class com.testinium.step.BaseSteps.goToUrl"}
+{"logLevel":"debug","message":"Executing '{} milisaniye bekle' using 'class com.testinium.step.BaseSteps.waitByMilliSeconds"}
+{"logLevel":"debug","message":"Killing Java runner..."}
+{"logLevel":"debug","message":"Stopping execution pool..."}
+{"logLevel":"debug","message":"Shutting down grpc server..."}
