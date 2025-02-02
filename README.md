@@ -1,7 +1,11 @@
 # transferMoneyTestinium
+
 TestiniumWeb - Test Otomasyon Projesi
+
 Bu proje, GAUGE tabanlı test otomasyonu için geliştirilmiş bir Java projesidir. Singleton tasarım deseni, BDD framework yapısı, Maven, Surefire raporlama, ve Log4j2 gibi araçları kullanarak test otomasyonu yapılmaktadır. Proje, Selenium 4 ile web uygulamaları üzerinde testler yapmaktadır.
+
 İçindekiler
+
 Proje Yapısı
 Başlangıç
 Kullanılan Teknolojiler
