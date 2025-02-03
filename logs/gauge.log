@@ -20297,3 +20297,17 @@ Total time taken: 2.525s
 04-02-2025 00:04:18.985 [java] [DEBUG] Executing '{} alanına {} yaz' using 'class com.testinium.step.BaseStepsTest.enterText
 04-02-2025 00:04:19.035 [java] [DEBUG] Executing '{} elementine tıkla' using 'class com.testinium.step.BaseStepsTest.clickElement
 04-02-2025 00:04:19.077 [java] [DEBUG] Executing '{} saniye beklenir ve {} xpath elementi {} olana kadar beklenir' using 'class com.testinium.step.BaseStepsTest.waitForElementCondition
+04-02-2025 00:04:34.632 [html-report] [DEBUG] Transformed SuiteResult to report structure
+04-02-2025 00:04:34.638 [html-report] [INFO] Successfully generated html-report to => /Users/testinium/Desktop/transferMoneyTestinium/reports/html-report/index.html
+04-02-2025 00:04:34.639 [html-report] [DEBUG] Done generating HTML report using theme from /Users/testinium/.gauge/plugins/html-report/4.3.1/themes/default
+04-02-2025 00:04:34.639 [xml-report] [INFO] Successfully generated xml-report to => /Users/testinium/Desktop/transferMoneyTestinium/reports/xml-report
+04-02-2025 00:04:34.639 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+04-02-2025 00:04:34.639 [Gauge] [DEBUG] Sending kill message to Xml Report plugin.
+04-02-2025 00:04:34.640 [java] [DEBUG] Killing Java runner...
+04-02-2025 00:04:34.641 [java] [DEBUG] Stopping execution pool...
+04-02-2025 00:04:34.641 [java] [DEBUG] Shutting down grpc server...
+04-02-2025 00:04:34.643 [Gauge] [INFO] Specifications:	1 executed	0 passed	1 failed	0 skipped
+04-02-2025 00:04:34.643 [Gauge] [INFO] Scenarios:	1 executed	0 passed	1 failed	0 skipped
+04-02-2025 00:04:34.643 [Gauge] [INFO] 
+Total time taken: 17.659s
+04-02-2025 00:04:34.643 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
