@@ -4,10 +4,17 @@ This is a concept file with following syntax for each concept.
 # Catcylabs anasayfasının yüklenme süresi kontrol edilir
 * Sayfa yüklenme süresini kontrol et "https://catchylabs-webclient.testinium.com/signIn"
 
-# Başarılı login olunur
+# Username text box'ına tıklanır ve geçerli kullanici adi girilir
 * "userName" elementine tıkla
 * "userName" alanına "aydin.merve@testinium.com" yaz
+
+# Password text box'ına tıklanır ve geçerli parola girilir
 * "password" elementine tıkla
 * "password" alanına "Ehwcwilt53!" yaz
+
+# Login butonuna tıklanır başarılı login olunduğu görülür
 * "loginButton" elementine tıkla
+
+# Sisteme başarıyla giriş yapıldığı görülür
 * "3" saniye beklenir ve "openMoneyTransferButton" xpath elementi "görünür" olana kadar beklenir
+

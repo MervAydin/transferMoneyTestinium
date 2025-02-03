@@ -1384,3 +1384,25 @@
 02-02-2025 21:59:22.176 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Başarılı login olunur"}
 02-02-2025 21:59:22.177 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Başarılı login olunur" parameterizedStepValue:"Başarılı login olunur"}}
 02-02-2025 21:59:34.688 [Gauge] [DEBUG] Spec file added / modified: /Users/testinium/Desktop/transferMoneyTestinium/specs/LoginScenariosPage/login.spec
+03-02-2025 23:46:41.183 [Gauge] [INFO] Initializing concepts cache with 5 concepts
+03-02-2025 23:46:41.183 [Gauge] [DEBUG] Adding concepts from /Users/testinium/Desktop/transferMoneyTestinium/specs/LoginScenariosPage/login.cpt
+03-02-2025 23:46:41.183 [Gauge] [DEBUG] Adding concepts from /Users/testinium/Desktop/transferMoneyTestinium/specs/LoginScenariosPage/login.cpt
+03-02-2025 23:46:41.183 [Gauge] [DEBUG] Adding concepts from /Users/testinium/Desktop/transferMoneyTestinium/specs/LoginScenariosPage/login.cpt
+03-02-2025 23:46:41.183 [Gauge] [DEBUG] Adding concepts from /Users/testinium/Desktop/transferMoneyTestinium/specs/LoginScenariosPage/login.cpt
+03-02-2025 23:46:41.183 [Gauge] [DEBUG] Adding concepts from /Users/testinium/Desktop/transferMoneyTestinium/specs/LoginScenariosPage/login.cpt
+03-02-2025 23:46:41.185 [Gauge] [INFO] Initializing specs cache with 1 specs
+03-02-2025 23:46:41.185 [Gauge] [DEBUG] Adding specs from /Users/testinium/Desktop/transferMoneyTestinium/specs/LoginScenariosPage/login.spec
+03-02-2025 23:46:41.185 [Gauge] [INFO] Initializing steps cache with 2 steps
+03-02-2025 23:46:41.185 [Gauge] [INFO] Gauge daemon initialized and listening on port: 53956
+03-02-2025 23:46:41.186 [Gauge] [DEBUG] Watching directory: /Users/testinium/Desktop/transferMoneyTestinium/specs
+03-02-2025 23:46:41.186 [Gauge] [DEBUG] Found 1 files
+03-02-2025 23:46:41.186 [Gauge] [DEBUG] Watching directory: /Users/testinium/Desktop/transferMoneyTestinium/specs/LoginScenariosPage
+03-02-2025 23:46:41.186 [Gauge] [DEBUG] Found 2 files
+03-02-2025 23:46:47.877 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Login butonuna tıklanır başarılı login olunduğu görülür"}
+03-02-2025 23:46:47.878 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login butonuna tıklanır başarılı login olunduğu görülür" parameterizedStepValue:"Login butonuna tıklanır başarılı login olunduğu görülür"}}
+03-02-2025 23:46:47.924 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Login butonuna tıklanır başarılı login olunduğu görülür"}
+03-02-2025 23:46:47.924 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Login butonuna tıklanır başarılı login olunduğu görülür" parameterizedStepValue:"Login butonuna tıklanır başarılı login olunduğu görülür"}}
+03-02-2025 23:46:47.924 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:"Sisteme başarıyla giriş yapıldığı görülür"}
+03-02-2025 23:46:47.924 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Sisteme başarıyla giriş yapıldığı görülür" parameterizedStepValue:"Sisteme başarıyla giriş yapıldığı görülür"}}
+03-02-2025 23:46:47.985 [Gauge] [DEBUG] Api Request Received: messageType:GetStepValueRequest messageId:4 stepValueRequest:{stepText:" Sisteme başarıyla giriş yapıldığı görülür"}
+03-02-2025 23:46:47.985 [Gauge] [DEBUG] Sending API response: messageType:GetStepValueResponse messageId:4 stepValueResponse:{stepValue:{stepValue:"Sisteme başarıyla giriş yapıldığı görülür" parameterizedStepValue:"Sisteme başarıyla giriş yapıldığı görülür"}}

@@ -1,11 +1,15 @@
-Specification Heading
+Login Senaryolari
 =====================
      
-Scenario Heading
+Basarili Login Senaryosu
 ----------------
-tags:scenario_heading
+tags:basarili_login_senaryosu
 * Catcylabs anasayfasının yüklenme süresi kontrol edilir
-* Başarılı login olunur
+* Username text box'ına tıklanır ve geçerli kullanici adi girilir
+* Password text box'ına tıklanır ve geçerli parola girilir
+* Login butonuna tıklanır başarılı login olunduğu görülür
+* Sisteme başarıyla giriş yapıldığı görülür
+
 
 
 

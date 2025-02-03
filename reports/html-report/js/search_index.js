@@ -1,1 +1,1 @@
-var index = {"Tags":{"scenario_heading":["specs/LoginScenariosPage/login.html"]},"Specs":{"Specification Heading":["specs/LoginScenariosPage/login.html"]}};
+var index = {"Tags":{"basarili_login_senaryosu":["specs/LoginScenariosPage/login.html"]},"Specs":{"Login Senaryolari":["specs/LoginScenariosPage/login.html"]}};

@@ -1,5 +1,8 @@
 [
-	"gauge",
+	"/opt/homebrew/bin/gauge",
 	"run",
-	"--dir=/Users/testinium/Desktop/transferMoneyTestinium"
+	"--machine-readable",
+	"--hide-suggestion",
+	"--simple-console",
+	"/Users/testinium/Desktop/transferMoneyTestinium/specs/LoginScenariosPage/login.spec:4"
 ]

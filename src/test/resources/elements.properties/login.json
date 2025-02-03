@@ -11,7 +11,7 @@
   },
   {
     "key":"loginButton",
-    "value":"//div[@class='css-175oi2rr-1i6wzkkr-lrvibrr-1loqt21r-1otgn73r-1awozwyr-169ebfhr-z2wwper-h3s6ttr-1777fcir-tsynxwr-13qz1uu']",
+    "value":"(//div[contains(@class, 'css-175oi2r') and contains(@class, 'r-13qz1uu')])[7]",
     "type":"xpath"
   },
   {
