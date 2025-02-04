@@ -16,7 +16,12 @@
   },
   {
     "key":"openMoneyTransferButton",
-    "value":"//div[@class='css-146c3p1r-jwli3ar-1b43r93'andcontains(text(),'OpenMoneyTransfer')]",
+    "value":"//div[@class='css-146c3p1r-jwli3ar-1b43r93' and contains(text(),'OpenMoneyTransfer')]",
+    "type":"xpath"
+  },
+  {
+    "key":"invalidUserNameAndPasswordWarning",
+    "value":"//div[contains(text(), 'Username or Password Invalid!')]",
     "type":"xpath"
   }
 ]

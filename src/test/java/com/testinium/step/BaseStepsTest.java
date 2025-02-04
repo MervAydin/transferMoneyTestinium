@@ -67,40 +67,47 @@ public class BaseStepsTest {
         assertTrue(loadTime < 3000, "Sayfa yüklenme süresi çok uzun!");
     }
 
-    @Step("<int> saniye beklenir ve <key> xpath elementi <condition> olana kadar beklenir")
-    public void waitForElementCondition(int seconds, String key, String condition) {
-        // Dinamik bekleme için WebDriverWait kullanıyoruz
-        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(seconds));
-
-        WebElement element = null;
-
-        // Beklenecek koşula göre işlem yapıyoruz
-        switch (condition.toLowerCase()) {
-            case "görünür":
-                element = wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(key)));
-                break;
-            case "tıklanabilir":
-                element = wait.until(ExpectedConditions.elementToBeClickable(By.xpath(key)));
-                break;
-            case "var":
-                element = wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(key)));
-                break;
-            default:
-                throw new IllegalArgumentException("Geçersiz koşul: " + condition);
-        }
-
-        // Koşul sağlandığında işlemi yap
-        if (element != null) {
-            System.out.println("Element " + condition + " durumda.");
+    @Step("<int> saniye beklenir")
+    public void waitForSeconds(int seconds) {
+        try {
+            // Milisaniye cinsine çevirerek bekleme
+            Thread.sleep(seconds * 1000L);
+        } catch (InterruptedException e) {
+            Thread.currentThread().interrupt();
+            throw new RuntimeException(seconds + " saniye beklenirken hata oluştu", e);
         }
     }
 
 
 
-@Step("<int> saniye boyunca element görünene kadar bekle")
-    public void waitForElementWithDynamicWait(int seconds) {
+    @Step("<key> xpath elementi <condition> olana kadar beklenir")
+    public void waitForElementCondition(String key, String condition) {
+        WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+
+        switch (condition.toLowerCase()) {
+            case "görünür":
+                wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(key)));
+                break;
+            case "tıklanabilir":
+                wait.until(ExpectedConditions.elementToBeClickable(By.xpath(key)));
+                break;
+            case "var":
+                wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(key)));
+                break;
+            default:
+                throw new IllegalArgumentException("Desteklenmeyen koşul: '" + condition + "'. Geçerli koşullar: görünür, tıklanabilir, var");
+        }
+    }
+
+
+
+
+
+
+    @Step("<seconds> saniye boyunca <key> xpath elementi görünene kadar bekle")
+    public void waitForElementWithDynamicWait(int seconds, String key) {
         new WebDriverWait(driver, Duration.ofSeconds(seconds))
-                .until(ExpectedConditions.visibilityOfElementLocated(By.id("element-id")));
+                .until(ExpectedConditions.visibilityOfElementLocated(By.xpath(key)));
     }
 
 

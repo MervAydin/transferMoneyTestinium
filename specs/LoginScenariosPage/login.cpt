@@ -16,5 +16,24 @@ This is a concept file with following syntax for each concept.
 * "loginButton" elementine tıkla
 
 # Sisteme başarıyla giriş yapıldığı görülür
-* "3" saniye beklenir ve "openMoneyTransferButton" xpath elementi "görünür" olana kadar beklenir
+* "3" saniye beklenir
+* "openMoneyTransferButton" elementi görüntülendiğini doğrula
+
+
+# Username text box'ına tıklanır ve geçersiz kullanici adi girilir
+* "userName" elementine tıkla
+* "userName" alanına "aydin" yaz
+
+# Login butonuna tıklanır
+* "loginButton" elementine tıkla
+
+# Password text box'ına tıklanır ve geçersiz parola girilir
+* "password" elementine tıkla
+* "password" alanına "abcdef" yaz
+
+# Username or Password Invalid Uyarisinin geldiği görülür
+* "3" saniye beklenir
+* "invalidUserNameAndPasswordWarning" elementi görüntülendiğini doğrula
+
+
 
